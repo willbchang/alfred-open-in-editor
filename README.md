@@ -8,7 +8,7 @@ Download [here](https://raw.githubusercontent.com/willbchang/alfred-open-in-vsco
 <kbd>cmd</kbd> + <kbd>cmd</kbd>
 - [x] Launch VSCode
 - [x] Bring VSCode to the front window
-- [x] Open file(s)/folder(s) in VSCode
+- [x] Open selected file(s)/folder(s) from Finder/Alfred File Browser(use <kbd>Tab</kbd> to complete firstly)
 - [ ] Write selected text to an untitled empty file in VSCode
 
 ### Change Code Editor
