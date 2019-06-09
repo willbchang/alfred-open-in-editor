@@ -1,3 +1,8 @@
+<p align="center">
+Dedicate to @Daisy for our friendship and her kindly support.<br>
+I'm trying to be a full time of free and open-source creator, she gave me the first donation.
+</p>
+
 # Open in VSCode
 Open in VSCode is an Alfred Workflow for opening VSCode with one command.
 
