@@ -1,6 +1,5 @@
 <p align="center">
 Dedicate to @Daisy for our friendship and her kindly support.<br>
-I'm trying to be a full time of free and open-source creator, she gave me the first donation.
 </p>
 
 # Open in VSCode
@@ -19,10 +18,12 @@ Download [here](https://raw.githubusercontent.com/willbchang/alfred-open-in-vsco
   2. Launch Alfred and press <kbd>spacebar</kbd> or input a single quote.
   3. Input the file/folder name Press <kbd>Tab</kbd> to complete.
   4. <kbd>cmd</kbd> + <kbd>cmd</kbd>
-- [ ] DEPENDING: Write selected text to an untitled empty file in VSCode.
 
 ### Change Code Editor
-Open `Run Script` object and replace `Visual\ Studio\ Code` with `YOUR\ APPLICATION\ NAME`.
+1. Open alfred preferences
+2. Find Open in VSCode workflow
+3. Open `Run Script` object
+4. Replace `Visual\ Studio\ Code` with `YOUR\ APPLICATION\ NAME`.
 
 ## Contribution
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
