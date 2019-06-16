@@ -1,9 +1,9 @@
 <p align="center">
-Dedicate to @Daisy for our friendship and her kindly support.<br>
+Dedicated to @Daisy for our friendship and her kindly support.<br>
 </p>
 
 # Open in VSCode
-Open in VSCode is an Alfred Workflow for opening VSCode with one command.
+Open in VSCode is an Alfred Workflow for opening VSCode commands with one hotkey.
 
 ## Installation
 Download [here](https://raw.githubusercontent.com/willbchang/alfred-open-in-vscode/master/Open%20in%20VSCode.alfredworkflow).
@@ -22,8 +22,8 @@ Download [here](https://raw.githubusercontent.com/willbchang/alfred-open-in-vsco
   
 
 ### Change Code Editor
-1. Open alfred preferences
-2. Find Open in VSCode workflow
+1. Open Alfred Preferences
+2. Find `Open in VSCode` workflow
 3. Open `Run Script` object
 4. Replace `Visual\ Studio\ Code` with `YOUR\ APPLICATION\ NAME`.
 
