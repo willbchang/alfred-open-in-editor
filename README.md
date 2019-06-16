@@ -16,8 +16,10 @@ Download [here](https://raw.githubusercontent.com/willbchang/alfred-open-in-vsco
 - [x] Open selected file/folder from Alfred File Browser.
   1. **Enable Quick Search Mode** in `Features -> File Action`.
   2. Launch Alfred and press <kbd>spacebar</kbd> or input a single quote.
-  3. Input the file/folder name Press <kbd>Tab</kbd> to complete.
-  4. <kbd>cmd</kbd> + <kbd>cmd</kbd>
+  3. Move the highlight block to the desitination folder.
+  4. *Notice*: if you enabled `Advanced -> History` and browse file with it, you should use <kbd>tab</kbd> or <kbd>←</kbd> or <kbd>→</kbd> to avoid Alfred's default selection.
+  5. <kbd>cmd</kbd> + <kbd>cmd</kbd>
+  
 
 ### Change Code Editor
 1. Open alfred preferences
