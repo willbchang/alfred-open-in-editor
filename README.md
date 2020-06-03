@@ -1,37 +1,40 @@
 <p align="center">
-Dedicated to @Daisy for our friendship and her kindly support.<br>
+  <img src="icon.png" alt="Open in Editor Logo" height="150px"><br>
+  <sub>Dedicated to @Daisy for our friendship and her kindly support.</sub>
 </p>
 
-# Open in VSCode
-Open in VSCode is an Alfred Workflow for opening VSCode commands with one hotkey.
+# Open in Editor
+An Alfred Workflow to open file/folder in editor with one hotkey.
 
 ## Installation
-1. Download [here](https://raw.githubusercontent.com/willbchang/alfred-open-in-vscode/master/Open%20in%20VSCode.alfredworkflow).
-2. Double click `Open in VSCode.alfredworkflow` to install.
+1. Download [Open in Editor.alfredworkflow](https://github.com/willbchang/alfred-open-in-editor/releases/latest).
+2. Double click `Open in Editor.alfredworkflow` to install.
 3. Click `Import` Button.
-4. Double click `Hotkey` and set your shortcut.(I'm using <kbd>alt</kbd> + <kbd>v</kbd>).
+4. Double click `Hotkey` and set your shortcut.(I'm using <kbd>alt</kbd> + <kbd>r</kbd>).
 
 ## Usage
-<kbd>alt</kbd> + <kbd>v</kbd>(You can config your favorite shortcut)
-- Launch VSCode if VSCode isn't active.
-- Bring VSCode to the front window if VSCode is active.
-- Open selected file(s)/folder(s) from Finder.
-- Open selected file/folder from Alfred File Browser.
+<kbd>alt</kbd> + <kbd>r</kbd>
+- Launch Editor if Editor isn't active.
+- Bring Editor to the front window if Editor is active.
+- Open selected file/folder from Finder or Alfred File Browser.
   1. **Enable Quick Search Mode** in `Features -> File Action`.
   2. Launch Alfred and press <kbd>spacebar</kbd> or input a single quote.
-  3. Move the highlight block to the desitination folder.
+  3. Move the highlight block to the destination folder.
   4. *Notice*: if you enabled `Advanced -> History` and browse file with it, you should use <kbd>tab</kbd> or <kbd>←</kbd> or <kbd>→</kbd> to avoid Alfred's default selection.
-  5. Press <kbd>alt</kbd> + <kbd>v</kbd> or your own shortcut.
+  5. Press <kbd>alt</kbd> + <kbd>r</kbd> or your own shortcut.
   
 
 ### Change Code Editor
-1. Open Alfred Preferences
-2. Find `Open in VSCode` workflow
-3. Open `Run Script` object
-4. Replace `Visual\ Studio\ Code` with `YOUR\ APPLICATION\ NAME`.
+1. Open Alfred Preferences -> Workflows  -> Open in Editor
+2. Right click `Open in Editor` workflow -> Open in Finder
+3. Open `script.rb`.
+4. Replace `RubyMine` with YOUR APPLICATION NAME.
 
 ## Contribution
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## Credits
+Icons made by https://www.flaticon.com/authors/freepik
 
 ## License
 [MIT](LICENSE)
