@@ -34,7 +34,9 @@ An Alfred Workflow to open file/folder in editor with one hotkey.
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Credits
-Icons made by https://www.flaticon.com/authors/freepik
+Icons made by https://www.flaticon.com/authors/freepik <br>
+It was built with 💖 & [RubyMine](https://www.jetbrains.com/ruby/).
 
 ## License
 [MIT](LICENSE)
+
