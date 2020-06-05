@@ -25,10 +25,9 @@ An Alfred Workflow to open file/folder in editor with one hotkey.
   
 
 ### Change Code Editor
-1. Open Alfred Preferences -> Workflows  -> Open in Editor
-2. Right click `Open in Editor` workflow -> Open in Finder
-3. Open `script.rb`.
-4. Replace `RubyMine` with YOUR APPLICATION NAME.
+1. Open **Alfred Preferences** -> **Workflows**  -> **Open in Editor**.
+2. Double click `Run Script`, replace `RubyMine` with `YOUR APPLICATION NAME`.
+3. Make sure the app name surrounds with **double quote** `""`.
 
 ## Contribution
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
