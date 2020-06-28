@@ -13,7 +13,7 @@ An Alfred Workflow to open file/folder in editor with one hotkey.
 4. Double click `Hotkey` and set your shortcut.(I'm using <kbd>alt</kbd> + <kbd>r</kbd>).
 
 ## Usage
-<kbd>alt</kbd> + <kbd>r</kbd>
+<kbd>alt</kbd> + <kbd>v</kbd>
 - Launch Editor if Editor isn't active.
 - Bring Editor to the front window if Editor is active.
 - Open selected file/folder from Finder or Alfred File Browser.
@@ -21,19 +21,19 @@ An Alfred Workflow to open file/folder in editor with one hotkey.
   2. Launch Alfred and press <kbd>spacebar</kbd> or input a single quote.
   3. Move the highlight block to the destination folder.
   4. *Notice*: if you enabled `Advanced -> History` and browse file with it, you should use <kbd>tab</kbd> or <kbd>←</kbd> or <kbd>→</kbd> to avoid Alfred's default selection.
-  5. Press <kbd>alt</kbd> + <kbd>r</kbd> or your own shortcut.
+  5. Press <kbd>alt</kbd> + <kbd>v</kbd> or your own shortcut.
   
 
 ### Change Code Editor
 1. Open **Alfred Preferences** -> **Workflows**  -> **Open in Editor**.
-2. Double click `Run Script`, replace `RubyMine` with `YOUR APPLICATION NAME`.
+2. Double click `Run Script`, replace `Visual Studio Code` with `YOUR APPLICATION NAME`.
 3. Make sure the app name surrounds with **double quote** `""`.
 
 ## Contribution
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Credits
-Icons made by https://www.flaticon.com/authors/freepik <br>
+Icon made by https://www.flaticon.com/authors/freepik <br>
 It was built with 💖 & [RubyMine](https://www.jetbrains.com/ruby/).
 
 ## License
