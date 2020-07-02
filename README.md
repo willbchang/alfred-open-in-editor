@@ -22,7 +22,15 @@ An Alfred Workflow to open file/folder in editor with one hotkey.
   3. Move the highlight block to the destination folder.
   4. *Notice*: if you enabled `Advanced -> History` and browse file with it, you should use <kbd>tab</kbd> or <kbd>←</kbd> or <kbd>→</kbd> to avoid Alfred's default selection.
   5. Press <kbd>alt</kbd> + <kbd>v</kbd> or your own shortcut.
-  
+
+### Emacs Support
+1. Add the code below to your `init.el` or `.emacs`
+  ```lisp
+  ;; Enable server for opening file/folder from emacsclient
+  (server-start)
+  ```
+2. Set the shortcut to launch Emacs.
+3. Try it!
 
 ### Change Code Editor
 1. Open **Alfred Preferences** -> **Workflows**  -> **Open in Editor**.
