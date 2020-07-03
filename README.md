@@ -19,9 +19,7 @@ Defaults comes with VSCode, IDEA, Vim(in Terminal), Emacs, you can change it eas
 ![vscode](images/open-in-vscode.gif)
 - Launch Editor if Editor isn't active.
 - Bring Editor to the front window if Editor is active.
-  ![Activate Editor](images/activate.gif)
 - Open selected file/folder from Finder or Alfred File Browser.
-  ![Open in Editor](images/open-in-editor.gif)
   1. **Enable Quick Search Mode** in `Features -> File Action`.
   2. Launch Alfred and press <kbd>spacebar</kbd> or input a single quote.
   3. Move the highlight block to the destination folder.
