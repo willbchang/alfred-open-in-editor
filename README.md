@@ -1,22 +1,27 @@
 <p align="center">
-  <img src="icon.png" alt="Open in Editor Logo" height="150px"><br>
+  <img src="images/icon.png" alt="Open in Editor Logo" height="150px"><br>
   <sub>Dedicated to @Daisy for our friendship and her kindly support.</sub>
 </p>
 
 # Open in Editor
 An Alfred Workflow to open file/folder in editor with one hotkey.
 
+Defaults comes with VSCode, IDEA, Vim(in Terminal), Emacs, you can change it easily.
+
 ## Installation
-1. Download [Open in Editor.alfredworkflow](https://github.com/willbchang/alfred-open-in-editor/releases/latest).
+1. Download [Open in Editor.alfredworkflow](https://github.com/willbchang/alfred-open-in-editor/releases/download/V2.3.0/Open-in-Editor.alfredworkflow).
 2. Double click `Open in Editor.alfredworkflow` to install.
 3. Click `Import` Button.
 4. Double click `Hotkey` and set your shortcut.(I'm using <kbd>alt</kbd> + <kbd>c</kbd>).
 
 ## Usage
 <kbd>alt</kbd> + <kbd>c</kbd>
+![vscode](images/open-in-vscode.gif)
 - Launch Editor if Editor isn't active.
 - Bring Editor to the front window if Editor is active.
+  ![Activate Editor](images/activate.gif)
 - Open selected file/folder from Finder or Alfred File Browser.
+  ![Open in Editor](images/open-in-editor.gif)
   1. **Enable Quick Search Mode** in `Features -> File Action`.
   2. Launch Alfred and press <kbd>spacebar</kbd> or input a single quote.
   3. Move the highlight block to the destination folder.
@@ -24,6 +29,7 @@ An Alfred Workflow to open file/folder in editor with one hotkey.
   5. Press <kbd>alt</kbd> + <kbd>c</kbd> or your own shortcut.
 
 ### Emacs Support
+![emacs](images/open-in-emacs.gif)
 1. Add the code below to your `init.el` or `.emacs`
   ```lisp
   ;; Enable server for opening file/folder from emacsclient
@@ -33,6 +39,7 @@ An Alfred Workflow to open file/folder in editor with one hotkey.
 3. Try it!
 
 ### Vim Support
+![vim](images/open-in-vim.gif)
 1. The default vim is `vim`, if you're using `nvim`, open the `Run Script` and change `vim` to `nvim`.
 2. The default terminal is `Terminal`, if you're using `iTerm2` or something else, open the `Run Script` and change `Terminal` to `YOUR APPLICATION NAME`.
 3. Set the shortcut to launch vim.
