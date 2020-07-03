@@ -3,7 +3,8 @@ require 'shellwords'
 query = ARGV[0]
 
 # Remove single quote around file path when selecting from Alfred File Browser
-filepath = /^'.*'$/.match?(query) ? query[1..-2] : query
+filepath = query.gsub(/^'|'$/, '')
+
 
 # Avoid special character when running shell ommand.
 # If it's not a file path, return empty string to make

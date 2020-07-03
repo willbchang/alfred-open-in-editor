@@ -5,7 +5,7 @@ vim = ARGV[1]
 terminal = ARGV[2]
 
 # Remove single quote around file path when selecting from Alfred File Browser
-filepath = /^'.*'$/.match?(query) ? query[1..-2] : query
+filepath = query.gsub(/^'|'$/, '')
 
 # If it's not a file path, return empty string.
 # Avoid special character when running shell ommand.
