@@ -15,6 +15,7 @@ filepath = File.exist?(filepath) ? filepath.shellescape : ''
 # otherwise open filepath with emacs.
 # Without emacs client, it will lauch multiple Emacs instance instead of
 # one Emacs with multiple window.
-unless system "/usr/local/bin/emacsclient -n #{filepath}"
+cmd = "/usr/local/bin/emacsclient -n #{filepath}"
+unless system cmd
   `open -a Emacs #{filepath}`
 end
