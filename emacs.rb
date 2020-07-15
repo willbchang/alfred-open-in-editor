@@ -5,22 +5,16 @@ require 'shellwords'
 # Extra '' are added when selecting from Alfred File Browser
 filepath = ARGV[0].gsub(/^'|'$/, '')
 
-# Avoid special character when running shell ommand.
-# If it's not a file path, return empty string to make
-# emacsclient call fail.
-filepath = File.exist?(filepath) ? filepath.shellescape : ''
-
-# https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html
-# -c: --create-frame
-# If filepath is a directory, open it in a new frame(window)
-create_frame = File.directory?(filepath) ? '-c' : ''
-
-# Without emacs client, it will lauch multiple Emacs instance instead of
-# one Emacs with multiple window.
-cmd = "/usr/local/bin/emacsclient #{create_frame} -n #{filepath}"
-
-# If emacs server is not active or emacs is not active, open emacs
-# otherwise open filepath with emacs.
-unless system cmd
-  `open -a Emacs #{filepath}`
+if File.exist?(filepath)
+  # https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html
+  create_frame = File.directory?(filepath) ? '-c' : ''
+  cmd = "/usr/local/bin/emacsclient #{create_frame} -n #{filepath.shellescape}"
+  # If system cmd gets an error, it will run the code inside instead
+  # Usually emacs server doesn't start, or emacs isn't activate
+  unless system cmd
+    `open -a Emacs #{filepath.shellescape}`
+  end
+else
+  # open -a Emacs doesn't bring window to front for some unknown reason
+  `osascript -e 'tell application "Emacs" to activate'`
 end
