@@ -15,6 +15,5 @@ if File.exist?(filepath)
     `open -a Emacs #{filepath.shellescape}`
   end
 else
-  # open -a Emacs doesn't bring window to front for some unknown reason
-  `osascript -e 'tell application "Emacs" to activate'`
+  `open -a Emacs`
 end
