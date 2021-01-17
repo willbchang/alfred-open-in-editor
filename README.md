@@ -9,12 +9,13 @@ An Alfred Workflow to open file/folder in editor with one hotkey.
 Defaults comes with VSCode, IDEA, Vim(in Terminal), Emacs, you can change it easily.
 
 ## Installation
-1. Download [Open in Editor.alfredworkflow](https://github.com/willbchang/alfred-open-in-editor/releases/download/V2.3.0/Open-in-Editor.alfredworkflow).
+1. Download [Open in Editor.alfredworkflow](https://github.com/willbchang/alfred-open-in-editor/releases/latest).
 2. Double click `Open in Editor.alfredworkflow` to install.
 3. Click `Import` Button.
-4. Double click `Hotkey` and set your shortcut.(I'm using <kbd>alt</kbd> + <kbd>c</kbd>).
+4. Double click `Hotkey` and set your shortcut.(I'm using <kbd>alt</kbd> + <kbd>e</kbd>).
 
-## Usage
+## Features & Usage
+### General Text Editor
 <kbd>alt</kbd> + <kbd>c</kbd>
 ![vscode](images/open-in-vscode.gif)
 - Launch Editor if Editor isn't active.
@@ -25,6 +26,12 @@ Defaults comes with VSCode, IDEA, Vim(in Terminal), Emacs, you can change it eas
   3. Move the highlight block to the destination folder.
   4. *Notice*: if you enabled `Advanced -> History` and browse file with it, you should use <kbd>tab</kbd> or <kbd>←</kbd> or <kbd>→</kbd> to avoid Alfred's default selection.
   5. Press <kbd>alt</kbd> + <kbd>c</kbd> or your own shortcut.
+
+
+### IDE
+<kbd>alt</kbd> + <kbd>i</kbd>
+- If there is `*.xcodeproj` in the folder, it opens the folder with Xcode.
+- Other features work same as General Text Editor. 
 
 ### Emacs Support
 ![emacs](images/open-in-emacs.gif)
