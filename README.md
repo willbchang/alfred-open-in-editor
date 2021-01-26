@@ -15,8 +15,15 @@ Defaults comes with VSCode, IDEA, Vim(in Terminal), Emacs, you can change it eas
 4. Double click `Hotkey` and set your shortcut.(I'm using <kbd>alt</kbd> + <kbd>e</kbd>).
 
 ## Features & Usage
+
+### Change Code Editor
+1. Open **Alfred Preferences** -> **Workflows**  -> **Open in Editor**.
+2. Double click `Run Script`, replace `Visual Studio Code` with `YOUR APPLICATION NAME`.
+3. Make sure the app name surrounds with **double quote** `""`.
+
 ### General Text Editor
-<kbd>alt</kbd> + <kbd>c</kbd>
+<kbd>alt</kbd> + <kbd>c</kbd>, default with **Visual Studio Code**.
+
 ![vscode](images/open-in-vscode.gif)
 - Launch Editor if Editor isn't active.
 - Bring Editor to the front window if Editor is active.
@@ -29,11 +36,12 @@ Defaults comes with VSCode, IDEA, Vim(in Terminal), Emacs, you can change it eas
 
 
 ### IDE
-<kbd>alt</kbd> + <kbd>i</kbd>
-- If there is `*.xcodeproj` in the folder, it opens the folder with Xcode.
+<kbd>alt</kbd> + <kbd>i</kbd>, default with **RubyMine**
+
+- If there is `*.xcodeproj` in the folder(first level), it opens the folder with Xcode.
 - Other features work same as General Text Editor. 
 
-### Emacs Support
+### Emacs GUI Support
 ![emacs](images/open-in-emacs.gif)
 1. Add the code below to your `init.el` or `.emacs`
   ```lisp
@@ -43,17 +51,12 @@ Defaults comes with VSCode, IDEA, Vim(in Terminal), Emacs, you can change it eas
 2. Set the shortcut to launch Emacs.
 3. Try it!
 
-### Vim Support
+### Vim CLI Support
 ![vim](images/open-in-vim.gif)
 1. The default vim is `vim`, if you're using `nvim`, open the `Run Script` and change `vim` to `nvim`.
 2. The default terminal is `Terminal`, if you're using `iTerm2` or something else, open the `Run Script` and change `Terminal` to `YOUR APPLICATION NAME`.
 3. Set the shortcut to launch vim.
 4. Try it!
-
-### Change Code Editor
-1. Open **Alfred Preferences** -> **Workflows**  -> **Open in Editor**.
-2. Double click `Run Script`, replace `Visual Studio Code` with `YOUR APPLICATION NAME`.
-3. Make sure the app name surrounds with **double quote** `""`.
 
 ## Contribution
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
