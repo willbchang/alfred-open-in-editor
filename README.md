@@ -66,5 +66,5 @@ Icon made by https://www.flaticon.com/authors/freepik <br>
 It was built with 💖 & [RubyMine](https://www.jetbrains.com/ruby/).
 
 ## License
-[MIT](LICENSE)
+[AGPL-3.0](LICENSE)
 
