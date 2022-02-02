@@ -12,9 +12,9 @@ Defaults comes with VSCode, IDEA, Vim(in Terminal), Emacs, you can change it eas
 1. Download [Open in Editor.alfredworkflow](https://github.com/willbchang/alfred-open-in-editor/releases/latest).
 2. Double click `Open in Editor.alfredworkflow` to install.
 3. Click `Import` Button.
-4. Double click `Hotkey` and set your shortcut.(I'm using <kbd>fn</kbd> + <kbd>e</kbd> 
+4. Double click `Hotkey` and set your shortcut.(I'm using <kbd>fn</kbd> + <kbd>e</kbd>)
 
-[how to use fn + e as hotkey trigger](https://github.com/willbchang/alfred-extend-hotkey-triggers)).
+[how to use fn + e as hotkey trigger](https://github.com/willbchang/alfred-extend-hotkey-triggers).
 
 ## Features & Usage
 
