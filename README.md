@@ -12,7 +12,9 @@ Defaults comes with VSCode, IDEA, Vim(in Terminal), Emacs, you can change it eas
 1. Download [Open in Editor.alfredworkflow](https://github.com/willbchang/alfred-open-in-editor/releases/latest).
 2. Double click `Open in Editor.alfredworkflow` to install.
 3. Click `Import` Button.
-4. Double click `Hotkey` and set your shortcut.(I'm using <kbd>alt</kbd> + <kbd>e</kbd>).
+4. Double click `Hotkey` and set your shortcut.(I'm using <kbd>fn</kbd> + <kbd>e</kbd> 
+
+[how to use fn + e as hotkey trigger](https://github.com/willbchang/alfred-extend-hotkey-triggers)).
 
 ## Features & Usage
 
@@ -22,7 +24,7 @@ Defaults comes with VSCode, IDEA, Vim(in Terminal), Emacs, you can change it eas
 3. Make sure the app name surrounds with **double quote** `""`.
 
 ### General Text Editor
-<kbd>alt</kbd> + <kbd>c</kbd>, default with **Visual Studio Code**.
+<kbd>fn</kbd> + <kbd>c</kbd>, default with **Visual Studio Code**.
 
 ![vscode](images/open-in-vscode.gif)
 - Launch Editor if Editor isn't active.
@@ -32,11 +34,11 @@ Defaults comes with VSCode, IDEA, Vim(in Terminal), Emacs, you can change it eas
   2. Launch Alfred and press <kbd>spacebar</kbd> or input a single quote.
   3. Move the highlight block to the destination folder.
   4. *Notice*: if you enabled `Advanced -> History` and browse file with it, you should use <kbd>tab</kbd> or <kbd>←</kbd> or <kbd>→</kbd> to avoid Alfred's default selection.
-  5. Press <kbd>alt</kbd> + <kbd>c</kbd> or your own shortcut.
+  5. Press <kbd>fn</kbd> + <kbd>c</kbd> or your own shortcut.
 
 
 ### IDE
-<kbd>alt</kbd> + <kbd>i</kbd>, default with **RubyMine**
+<kbd>fn</kbd> + <kbd>i</kbd>, default with **IntelliJ IDEA**
 
 - If there is `*.xcodeproj` in the folder(first level), it opens the folder with Xcode.
 - Other features work same as General Text Editor. 
@@ -63,7 +65,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Credits
 Icon made by https://www.flaticon.com/authors/freepik <br>
-It was built with 💖 & [RubyMine](https://www.jetbrains.com/ruby/).
 
 ## License
 [AGPL-3.0](LICENSE)
