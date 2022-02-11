@@ -12,7 +12,7 @@ Defaults comes with VSCode, IDEA, Vim(in Terminal), Emacs, you can change it eas
 1. Download [Open in Editor.alfredworkflow](https://github.com/willbchang/alfred-open-in-editor/releases/latest).
 2. Double click `Open in Editor.alfredworkflow` to install.
 3. Click `Import` Button.
-4. Double click `Hotkey` and set your shortcut.(I'm using <kbd>fn</kbd> + <kbd>e</kbd>)
+4. Double click `Hotkey` and set your shortcut.(I'm using <kbd>fn</kbd> + <kbd>e</kbd> for Emacs)
 
 [how to use fn + e as hotkey trigger](https://github.com/willbchang/alfred-extend-hotkey-triggers).
 
@@ -24,7 +24,7 @@ Defaults comes with VSCode, IDEA, Vim(in Terminal), Emacs, you can change it eas
 3. Make sure the app name surrounds with **double quote** `""`.
 
 ### General Text Editor
-<kbd>fn</kbd> + <kbd>c</kbd>, default with **Visual Studio Code**.
+<kbd>alt</kbd> + <kbd>c</kbd>, default with **Visual Studio Code**.
 
 ![vscode](images/open-in-vscode.gif)
 - Launch Editor if Editor isn't active.
@@ -43,8 +43,12 @@ Defaults comes with VSCode, IDEA, Vim(in Terminal), Emacs, you can change it eas
 - If there is `*.xcodeproj` in the folder(first level), it opens the folder with Xcode.
 - Other features work same as General Text Editor. 
 
+https://user-images.githubusercontent.com/14329786/153532093-66f9f318-9600-47fa-9875-343f21a07bef.mp4
+
 ### Emacs GUI Support
-![emacs](images/open-in-emacs.gif)
+
+https://user-images.githubusercontent.com/14329786/153535556-41aa596b-af54-4472-9ece-ecc98cb79c4c.mp4
+
 1. Add the code below to your `init.el` or `.emacs`
   ```lisp
   ;; Enable server for opening file/folder from emacsclient
@@ -54,9 +58,11 @@ Defaults comes with VSCode, IDEA, Vim(in Terminal), Emacs, you can change it eas
 3. Try it!
 
 ### Vim CLI Support
-![vim](images/open-in-vim.gif)
-1. The default vim is `vim`, if you're using `nvim`, open the `Run Script` and change `vim` to `nvim`.
-2. The default terminal is `Terminal`, if you're using `iTerm2` or something else, open the `Run Script` and change `Terminal` to `YOUR APPLICATION NAME`.
+
+https://user-images.githubusercontent.com/14329786/153535610-95d1607b-8aeb-47f4-970d-e5f324980270.mp4
+
+1. It default with `vim`, if you're using `nvim`, open the `Run Script` and change `vim` to `nvim`.
+2. It default with `Terminal`, if you're using `iTerm2` or something else, open the `Run Script` and change `Terminal` to `YOUR APPLICATION NAME`.
 3. Set the shortcut to launch vim.
 4. Try it!
 
